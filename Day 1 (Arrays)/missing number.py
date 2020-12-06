@@ -5,7 +5,7 @@
 #
 
 nums=[9,6,4,2,3,5,7,0,1]
-total=sum(nums)
+total=sumation(nums)
 length=len(nums)
 length=length*(length+1)//2
 print(length-total)
