@@ -1,3 +1,8 @@
+# Top view and bottom view both use the same concept i.e vertical traversal
+# we first find the vertical traversal of the tree and then if we choose the first
+# element from the list of list then it is the top view and if we choose
+# last element from every element we will get bottom view.
+   
 class Tree:
     def __init__(self,value=0,left=None,right=None):
         self.value=value
